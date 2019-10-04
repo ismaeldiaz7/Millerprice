@@ -12,7 +12,7 @@ body {
 	max-width: 100%;
 	max-height: 100%;
 }
-
+/*img-contain takes the role of containing an image to only let it be a certin size*/
 .img-contain {
 	max-width: 60%;
 	max-height: 60%;
@@ -82,7 +82,7 @@ body {
 	align-items: center;
 	justify-content: left;
 }
-
+/*this code causes the image to grow when curser is over the picture*/
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover { transform: scale(1.1); }
@@ -164,7 +164,7 @@ to stack on top of each other */
 	 	display: none;
 	 }
 }
-
+/*this is the mobile layout and how the page will look when on a phone*/
 @media only screen and (max-width: 895px) {
 	 .millercolumn {
 	 	display: none;
